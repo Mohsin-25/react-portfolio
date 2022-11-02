@@ -1,0 +1,57 @@
+.leftNav {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: var(--primary);
+  cursor: pointer;
+  height: 250px;
+  justify-content: space-between;
+  z-index: 9999;
+}
+
+.gMail:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  color: red;
+}
+.linkedIn:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  color: blue;
+}
+.gitHub:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  color: orange;
+}
+.instaGram:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  color: red;
+}
+.whatsApp:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  color: green;
+}
+.faceBook:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  color: darkblue;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+/* RESPONSIVE CODE */
+@media only screen and (max-width: 680px) {
+  .leftNav {
+    left: 5px;
+  }
+}

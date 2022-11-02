@@ -1,0 +1,142 @@
+/* .info {
+  background-color: var(--grey);
+} */
+.info {
+  display: flex;
+  position: relative;
+  margin-bottom: 100vh;
+  justify-content: flex-start;
+  /* padding-top: 50px; */
+  /* font-family: cursive !important; */
+}
+.info-heading {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 150px;
+  line-height: 70px;
+}
+.info .small {
+  font-size: 40px;
+  position: relative;
+}
+.info .big {
+  font-size: 75px;
+  font-family: Calibri, "Trebuchet MS", sans-serif !important;
+}
+
+/* .big-heading { */
+/* font-family: Geneva, Tahoma, sans-serif; */
+/* text-shadow: 0.2rem 0.2rem 0.2rem black; */
+/* font-weight: bolder; */
+/* font-size: 6rem; */
+/* line-height: 3rem; */
+/* display: inline-flex; */
+/* } */
+
+/* .big {
+  cursor: pointer;
+  transition: transform 0.15s !important;
+}
+.big:hover {
+  transform: translateY(-1.5rem) scale(1.2, 1.5) !important;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .small {
+    animation: heading-distorted-small 1s linear;
+  }
+}
+@keyframes heading-distorted-small {
+  0% {
+    font-size: 1000px;
+  }
+  100% {
+    font-size: 40px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .big {
+    animation: heading-distorted-big 1.2s linear;
+  }
+}
+@keyframes heading-distorted-big {
+  0% {
+    font-size: 1000px;
+  }
+  90% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 75px;
+  }
+} */
+
+@media screen and (max-width: 730px) {
+  .info .small {
+    font-size: 38px;
+  }
+  .info .big {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .info .small {
+    font-size: 35px;
+  }
+  .info .big {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .info .small {
+    font-size: 32px;
+  }
+  .info .big {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 585px) {
+  .info .small {
+    font-size: 30px;
+  }
+  .info .big {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .info .small {
+    font-size: 28px;
+  }
+  .info .big {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .info-heading {
+    margin-top: 100px;
+    line-height: 55px;
+  }
+  .info .small {
+    font-size: 25px;
+  }
+  .info .big {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .info .small {
+    font-size: 23px;
+  }
+  .info .big {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .info .small {
+    font-size: 20px;
+  }
+  .info .big {
+    font-size: 35px;
+  }
+}

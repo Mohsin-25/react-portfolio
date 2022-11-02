@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: var(--background);
+  /* background-image: var(--background-image); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: orange;
+  transition: all 0.4s;
+  overflow-x: hidden;
+}
+.page {
+  height: 100vh;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dark-mode {
+  --background: rgb(39, 39, 39);
+  --background-image: url("DarkModeBackground2.jpg");
+  --primary: rgb(50, 220, 200);
+  --NavPrimary: rgba(50, 220, 200, 0.8);
+  --secondary: #e64848;
+  /* --secondary: rgb(240, 84, 84); */
+  --overlay: rgba(255, 255, 255, 0.3);
+  --modal: rgb(221, 221, 221);
+  --modalText: rgb(39, 39, 39);
+
+  --TextOnBackground: rgb(200, 219, 190);
+  --TextOnSurface: rgb(200, 219, 190);
+  --OnPrimary: rgb(39, 39, 39);
+  --Heading: #e64848;
+  /* --Heading: rgb(240, 84, 84); */
+  /* --OnSecondary: black; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.light-mode {
+  --background: rgb(221, 221, 221);
+  --background-image: url("LightModeBackground - Copy.jpg");
+  /* --background-image: url("LightModeBackground.jpg"); */
+  --primary: rgb(34, 40, 49);
+  --NavPrimary: rgba(34, 40, 49, 0.8);
+  --secondary: #e64848;
+  /* --secondary: rgb(240, 84, 84); */
+  --overlay: rgba(0, 0, 0, 0.6);
+  --modal: rgb(39, 39, 39);
+  --modalText: rgb(221, 221, 221);
+
+  --TextOnBackground: rgb(35, 46, 58);
+  --TextOnSurface: rgb(35, 46, 58);
+  --OnPrimary: rgb(221, 221, 221);
+  --Heading: #e64848;
+
+  /* --Heading: rgb(240, 84, 84); */
+  /* --OnSecondary: black; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  /* background-color: var(--overlay); */
+  /* border: 2px solid red; */
+  color: var(--TextOnSurface);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 90%;
+  min-height: 100vh;
+  margin: auto;
+  /* margin-bottom: 100px; */
+  /* gap: 10px; */
+  /* gap: 100px; */
+  /* border-radius: 20% 80% 20% 80% / 70% 30% 70% 30% ; */
+  /* align-items: center; */
+}
+section p {
+  margin: 20px;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+section .heading {
+  color: var(--Heading);
+  font-size: 30px;
+  margin: 15px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 480px) {
+  section p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: start;
   }
 }

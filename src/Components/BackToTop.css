@@ -1,0 +1,14 @@
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: var(--primary);
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.backToTop:hover {
+  /* font-size: 45px; */
+  transition: all 0.3s;
+  transform: scale(1.2);
+}

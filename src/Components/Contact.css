@@ -1,0 +1,226 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.contact h2 {
+  color: var(--Heading);
+}
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid white; */
+  position: relative;
+  flex: 1;
+}
+.contactImageDiv {
+  display: flex;
+  flex-direction: row-reverse;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex: 0.3;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contactImage {
+  /* width: auto; */
+  width: 100%;
+  height: auto;
+  /* flex: 0.4; */
+
+  object-fit: contain;
+  margin-top: -50px;
+  margin-bottom: -30px;
+}
+
+/* CONTACT FORM */
+.contactForm {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  /* height: 600px; */
+  /* width: 600px; */
+  width: 95%;
+}
+.formDiv {
+  /* border: 1px solid orange; */
+  width: 100%;
+}
+.contactForm p {
+  text-align: justify;
+}
+
+.contactForm fieldset {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 5px 10px;
+  padding: 5px 20px;
+  border: 2px solid var(--overlay);
+  border-radius: 5px;
+}
+
+.contactForm legend {
+  position: relative;
+  background-color: var(--secondary);
+  color: var(--OnPrimary);
+  padding: 2px 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+.contactForm label {
+  display: block;
+  color: var(--TextOnBackground);
+}
+.contactForm span {
+  position: absolute;
+  top: 12px;
+  left: 38px;
+  display: block;
+  color: var(--TextOnBackground);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.contactForm input {
+  position: relative;
+  margin: 5px;
+  width: 100%;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* background-color: var(--background); */
+  background: transparent;
+  color: var(--TextOnBackground);
+  border: 3px solid var(--overlay);
+  margin-bottom: -10px;
+}
+/* .contactForm input {
+  margin-bottom: 32px;
+} */
+
+/* .contactForm input:focus ~ span,
+.contactForm input:valid ~ span {
+  transform: translateY(-30px) translateX(-10px);
+} */
+
+.submitBtn {
+  display: block;
+  position: relative;
+  left: 10px;
+  border-color: var(--primary) !important;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto !important;
+  width: 50% !important;
+  transition: all 0.5s;
+  padding: 10px !important;
+  font-weight: bolder;
+}
+.submitBtn:hover {
+  width: 60% !important;
+  background-color: var(--primary) !important;
+  color: var(--OnPrimary) !important;
+}
+
+@media screen and (max-width: 780px) {
+  .contactImageDiv {
+    flex: 0.5;
+  }
+  .contactForm {
+    flex: 1;
+    position: absolute;
+    align-items: flex-end;
+  }
+  .contactForm p {
+    display: flex;
+    padding-top: 60px;
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 100%;
+    /* position: absolute; */
+  }
+  .formDiv {
+    position: absolute;
+    top: 550px;
+    left: 0;
+  }
+}
+@media screen and (max-width: 730px) {
+  .formDiv {
+    top: 520px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .formDiv {
+    top: 490px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .formDiv {
+    top: 450px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .formDiv {
+    top: 420px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .formDiv {
+    top: 390px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .contactForm p {
+    padding-top: 0px;
+    width: 50%;
+  }
+  .formDiv {
+    top: 340px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .formDiv {
+    top: 320px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .formDiv {
+    top: 300px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .contactForm p {
+    padding-top: 0px;
+    width: 50%;
+    font-size: 20px;
+  }
+  .formDiv {
+    top: 260px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .contactForm p {
+    padding-top: 0px;
+    width: 50%;
+    font-size: 18px;
+    /* text-align:n; */
+  }
+  .formDiv {
+    top: 240px;
+  }
+}
