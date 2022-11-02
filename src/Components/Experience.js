@@ -14,7 +14,7 @@ function Experience() {
           </p>
         </div>
         <img
-          src="../images/0404f13b-79f0-4437-8642-1103646f6213.png"
+          src="../images/under-construction.png"
           alt=""
           className="expImage"
           data-aos="flip-left"

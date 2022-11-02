@@ -2,17 +2,17 @@ import React from "react";
 import "./Info.css";
 
 function Info() {
-  window.addEventListener("scroll", (e) => {
-    const target = document.querySelectorAll(".profile");
-    let scrolled = window.pageYOffset;
-    // console.log(scrolled);
-    let rate = scrolled;
-    for (let i = 0; i < target.length; i++) {
-      target[i].style.transform =
-        // `translate(` + rate * 0.75 + `px, ` + rate * 0.52 + `px)`;
-        `translate(` + rate * 0.45 + `px, ` + rate * 0.715 + `px)`;
-    }
-  });
+  // window.addEventListener("scroll", (e) => {
+  //   const target = document.querySelectorAll(".profile");
+  //   let scrolled = window.pageYOffset;
+  //   // console.log(scrolled);
+  //   let rate = scrolled;
+  //   for (let i = 0; i < target.length; i++) {
+  //     target[i].style.transform =
+  //       // `translate(` + rate * 0.75 + `px, ` + rate * 0.52 + `px)`;
+  //       `translate(` + rate * 0.45 + `px, ` + rate * 0.715 + `px)`;
+  //   }
+  // });
 
   // window.addEventListener("scroll", (e) => {
   //   const target = document.querySelectorAll(".name");
@@ -31,17 +31,17 @@ function Info() {
     // console.log(scrolled);
     let rate = scrolled;
     for (let i = 0; i < target.length; i++) {
-      target[i].style.transform = `translate( 0px,` + rate * 0.55 + `px)`;
+      target[i].style.transform = `translate( 0px,` + rate * 0.35 + `px)`;
     }
   });
 
   window.addEventListener("scroll", (e) => {
-    const target = document.querySelectorAll(".introPara");
+    const target = document.querySelectorAll(".big");
     let scrolled = window.pageYOffset;
     // console.log(scrolled);
     let rate = scrolled;
     for (let i = 0; i < target.length; i++) {
-      target[i].style.transform = `translate( 0px,` + rate * 0.45 + `px)`;
+      target[i].style.transform = `translate( 0px,` + rate * 0.55 + `px)`;
     }
   });
 

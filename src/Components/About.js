@@ -39,7 +39,7 @@ function About() {
                 <h3>HTML</h3>
                 <div className="langImage">
                   <img
-                    src="../images/HTML-logo.png"
+                    src="../images/html-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
@@ -49,7 +49,7 @@ function About() {
                 <h3>CSS</h3>
                 <div className="langImage">
                   <img
-                    src="../images/CSS-logo.png"
+                    src="../images/css-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
@@ -59,7 +59,7 @@ function About() {
                 <h3>JS</h3>
                 <div className="langImage">
                   <img
-                    src="../images/JavaScript-logo.png"
+                    src="../images/javascript-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
@@ -69,7 +69,7 @@ function About() {
                 <h3>REACT</h3>
                 <div className="langImage">
                   <img
-                    src="../images/React-logo.png"
+                    src="../images/react-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
@@ -83,13 +83,13 @@ function About() {
           </div>
           <div className="storyImage">
             <img
-              src="../images/myPicBackground3.jpg.png"
+              src="../images/background.jpg"
               alt=""
               data-aos="fade-left"
               className="picBg"
             />
             <img
-              src="../images/myPicForeground.png"
+              src="../images/foreground.png"
               alt=""
               className="picFg"
               data-aos="fade-right"

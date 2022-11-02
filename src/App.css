@@ -23,7 +23,7 @@ body {
 
 .dark-mode {
   --background: rgb(39, 39, 39);
-  --background-image: url("DarkModeBackground2.jpg");
+  --background-image: url("darkmodebackground.jpg");
   --primary: rgb(50, 220, 200);
   --NavPrimary: rgba(50, 220, 200, 0.8);
   --secondary: #e64848;
@@ -42,7 +42,7 @@ body {
 
 .light-mode {
   --background: rgb(221, 221, 221);
-  --background-image: url("LightModeBackground - Copy.jpg");
+  --background-image: url("lightmodebackground.jpg");
   /* --background-image: url("LightModeBackground.jpg"); */
   --primary: rgb(34, 40, 49);
   --NavPrimary: rgba(34, 40, 49, 0.8);
