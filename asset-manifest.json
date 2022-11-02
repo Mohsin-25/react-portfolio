@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.0316961b.css",
-    "main.js": "/react-portfolio/static/js/main.e74878b1.js",
+    "main.css": "/react-portfolio/static/css/main.70266b1b.css",
+    "main.js": "/react-portfolio/static/js/main.5e94ccb4.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/LightModeBackground - Copy.jpg": "/react-portfolio/static/media/LightModeBackground - Copy.8c2276aebb633e2bd22e.jpg",
-    "static/media/DarkModeBackground2.jpg": "/react-portfolio/static/media/DarkModeBackground2.eba282d631ebe4650a06.jpg",
+    "static/media/lightmodebackground.jpg": "/react-portfolio/static/media/lightmodebackground.8c2276aebb633e2bd22e.jpg",
+    "static/media/darkmodebackground.jpg": "/react-portfolio/static/media/darkmodebackground.eba282d631ebe4650a06.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.0316961b.css.map": "/react-portfolio/static/css/main.0316961b.css.map",
-    "main.e74878b1.js.map": "/react-portfolio/static/js/main.e74878b1.js.map",
+    "main.70266b1b.css.map": "/react-portfolio/static/css/main.70266b1b.css.map",
+    "main.5e94ccb4.js.map": "/react-portfolio/static/js/main.5e94ccb4.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0316961b.css",
-    "static/js/main.e74878b1.js"
+    "static/css/main.70266b1b.css",
+    "static/js/main.5e94ccb4.js"
   ]
 }
