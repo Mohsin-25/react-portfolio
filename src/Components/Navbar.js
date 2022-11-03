@@ -3,6 +3,8 @@ import { Link } from "react-scroll";
 // import { Link } from "react-router-dom";
 import "./Navbar.css";
 import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
+
 import SocialHandles from "./SocialHandles";
 import SwitchMode from "./SwitchMode";
 import BackToTop from "./BackToTop";
@@ -17,6 +19,11 @@ function Navbar() {
   const [showLinks, setShowLinks] = useState(true);
   const mobShowLinks = () => {
     setShowLinks(!showLinks);
+  };
+  const hideLinks = () => {
+    if (window.innerWidth <= 920) {
+      setShowLinks(!showLinks);
+    }
   };
   return (
     <div>
@@ -54,6 +61,7 @@ function Navbar() {
               // smooth={true}
               // offset={0}
               // duration={500}
+              onClick={hideLinks}
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <li>
@@ -71,6 +79,7 @@ function Navbar() {
               // smooth={true}
               // offset={0}
               // duration={500}
+              onClick={hideLinks}
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <li>
@@ -88,6 +97,7 @@ function Navbar() {
               // smooth={true}
               // offset={0}
               // duration={500}
+              onClick={hideLinks}
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <li>
@@ -105,6 +115,7 @@ function Navbar() {
               // smooth={true}
               // offset={0}
               // duration={500}
+              onClick={hideLinks}
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <li>
@@ -122,6 +133,7 @@ function Navbar() {
               // smooth={true}
               // offset={0}
               // duration={500}
+              onClick={hideLinks}
               style={{ textDecoration: "none", color: "inherit" }}
             >
               <li>
@@ -133,8 +145,13 @@ function Navbar() {
               </li>
             </Link>
           </div>
+
           <div className="menu" onClick={mobShowLinks}>
-            <MenuIcon sx={{ fontSize: 40 }}></MenuIcon>
+            {showLinks ? (
+              <MenuIcon sx={{ fontSize: 40 }}></MenuIcon>
+            ) : (
+              <CloseIcon sx={{ fontSize: 40 }}></CloseIcon>
+            )}
           </div>
         </ul>
       </nav>

@@ -49,7 +49,7 @@ function About() {
                 <h3>CSS</h3>
                 <div className="langImage">
                   <img
-                    src="../images/css-logo.png"
+                    src="./images/css-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
@@ -59,7 +59,7 @@ function About() {
                 <h3>JS</h3>
                 <div className="langImage">
                   <img
-                    src="../images/javascript-logo.png"
+                    src="images/javascript-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
@@ -69,7 +69,7 @@ function About() {
                 <h3>REACT</h3>
                 <div className="langImage">
                   <img
-                    src="../images/react-logo.png"
+                    src="public/images/react-logo.png"
                     alt=""
                     data-aos="flip-left"
                   />
