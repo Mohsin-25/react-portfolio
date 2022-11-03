@@ -36,7 +36,7 @@ function Contact() {
         <div className="contactContainer">
           <div className="contactImageDiv">
             <img
-              src="../images/contactmepic.png"
+              src="images/contactmepic.png"
               alt=""
               className="contactImage"
               data-aos="fade-right"

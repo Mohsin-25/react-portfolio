@@ -38,7 +38,7 @@ function Project(props) {
       )}
       <div className="projectImageDiv">
         <img
-          src="../images/project-icon.png"
+          src="images/project-icon.png"
           alt=""
           className="projectImage"
           // onClick={() => showModal(props.id)}
