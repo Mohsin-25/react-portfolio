@@ -7,7 +7,7 @@
   left: 20px;
   color: var(--primary);
   cursor: pointer;
-  height: 250px;
+  /* height: 250px; */
   justify-content: space-between;
   z-index: 9999;
 }
@@ -53,5 +53,16 @@ a:active {
 @media only screen and (max-width: 680px) {
   .leftNav {
     left: 5px;
+    bottom: 5px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  .closeSocial {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .faceBook {
+    font-size: 20px;
   }
 }

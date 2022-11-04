@@ -13,7 +13,7 @@ function BackToTop() {
     <div>
       <div className="backToTopDiv" onClick={scrollToTop}>
         <ArrowCircleUpIcon
-          sx={{ fontSize: 40 }}
+          sx={{ fontSize: 35 }}
           className="backToTop"
         ></ArrowCircleUpIcon>
       </div>
