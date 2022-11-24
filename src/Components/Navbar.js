@@ -127,23 +127,24 @@ function Navbar() {
               </li>
             </Link>
 
-            <Link
-              to=""
-              spy={true}
-              // smooth={true}
-              // offset={0}
-              // duration={500}
+            <a
+              href="./images/MohsinResume.pdf"
               onClick={hideLinks}
               style={{ textDecoration: "none", color: "inherit" }}
+              // target="_blank"
+              // rel="noopener noreferrer"
+              download="Mohsin's Resume"
+              // rel="noreferrer"
+              target="_blank"
             >
-              <li>
+              <li title="Check your downloads">
                 <DownloadForOfflineIcon
                   className="navIcon"
                   sx={{ marginRight: 0.6 }}
                 ></DownloadForOfflineIcon>{" "}
                 Resume
               </li>
-            </Link>
+            </a>
           </div>
 
           <div className="menu" onClick={mobShowLinks}>

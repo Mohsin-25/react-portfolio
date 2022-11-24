@@ -202,16 +202,22 @@ li:hover .navIcon {
   .navbar .mobileRightNav {
     width: 60%;
   }
+  .logoNew {
+    width: 200px;
+  }
 }
 @media only screen and (max-width: 430px) {
   .logoNew {
     width: 250px;
+  }
+  .logoNew {
+    width: 200px;
   }
 }
 @media only screen and (max-width: 390px) {
   .logoNew {
     padding-top: 13px;
     font-size: 35px;
-    width: 230px;
+    width: 200px;
   }
 }
