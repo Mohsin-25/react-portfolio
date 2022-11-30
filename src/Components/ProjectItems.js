@@ -17,7 +17,7 @@ const proj = [
   {
     id: 3,
     title: "Weather App",
-    img: "images/weatherapp 3x2.jpg",
+    img: "images/weather app 3x2.jpg",
     detail: "Planning your outings? Weather is something to keep in mind",
     website: "https://mohsin-25.github.io/weatherapp/",
   },
